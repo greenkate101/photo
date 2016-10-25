@@ -1,0 +1,27 @@
+.full {
+	height: 500px;
+	display: block;
+	margin: 0 auto;
+}
+
+img.thumbnail {
+	height: 50px;
+	display: inline-block;
+	padding: 1%;
+	width: 40px;
+
+}
+
+.wrapper {
+	text-align: center;
+	position: relative;
+}
+
+.fullscreen {
+   position: absolute;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+
+}
